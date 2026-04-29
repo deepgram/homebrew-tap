@@ -1,4 +1,4 @@
-class Deepctl < Formula
+class Deepgram < Formula
   include Language::Python::Virtualenv
 
   desc "Official Deepgram CLI for speech recognition and audio intelligence"
