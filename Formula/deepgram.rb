@@ -1,3 +1,8 @@
+# This formula is auto-generated from scripts/templates/deepgram.rb.template
+# in https://github.com/deepgram/cli on every root `v*` release of deepctl.
+# Manual edits to this file will be overwritten on the next release.
+# To change the formula, edit the template in deepgram/cli — not this file.
+
 class Deepgram < Formula
   include Language::Python::Virtualenv
 
