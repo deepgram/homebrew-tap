@@ -8,8 +8,8 @@ class Deepgram < Formula
 
   desc "Official Deepgram CLI for speech recognition and audio intelligence"
   homepage "https://github.com/deepgram/cli"
-  url "https://files.pythonhosted.org/packages/9e/21/9f13bbec5218e4bc70ecc9af34afce6dd6c8965b914f631780461a7b47f6/deepctl-0.2.22.tar.gz"
-  sha256 "ca2d60ecc010aa44d474d9d74523a9893c62849f761b7151e150d23a848c7bd0"
+  url "https://files.pythonhosted.org/packages/a4/40/fd50f4d543f7b7ac681c2e30bf1bb7008e2eede6c411ae50b9431d239651/deepctl-0.2.23.tar.gz"
+  sha256 "f2918a73f97331660afd2b58295a4a394b0ad5f7728de6649323997205c1ee58"
   license "MIT"
 
   # Build-time deps for the `cryptography` and `pydantic_core` resources,
@@ -228,8 +228,8 @@ class Deepgram < Formula
   end
 
   resource "deepctl-telemetry" do
-    url "https://files.pythonhosted.org/packages/af/1d/09829b4f137f945f0ba46f88a4c6cc51daac6d0f5e9ef4f094d44e4ade0e/deepctl_telemetry-0.0.2.tar.gz"
-    sha256 "9dc12d96b7b3dbd4a617d9148700433c0de4d9bd66f0b798aba8bb4c68c1b1d7"
+    url "https://files.pythonhosted.org/packages/71/4b/151f25a75648ba6daa89abb72b89fefbb0ab1cbfdea1cd42947eb57b90bc/deepctl_telemetry-0.0.3.tar.gz"
+    sha256 "fa4ec0de6812e87e1e207bde2a8d42dceefeadb7e5882d711b674e64b0ec5f32"
   end
 
   resource "deepgram-captions" do
@@ -358,8 +358,8 @@ class Deepgram < Formula
   end
 
   resource "propcache" do
-    url "https://files.pythonhosted.org/packages/9e/da/e9fc233cf63743258bff22b3dfa7ea5baef7b5bc324af47a0ad89b8ffc6f/propcache-0.4.1.tar.gz"
-    sha256 "f48107a8c637e80362555f37ecf49abe20370e557cc4ab374f04ec4423c97c3d"
+    url "https://files.pythonhosted.org/packages/ec/44/c87281c333769159c50594f22610f77398a47ccbfbbf23074e744e86f87c/propcache-0.5.2.tar.gz"
+    sha256 "01c4fc7480cd0598bb4b57022df55b9ca296da7fc5a8760bd8451a7e63a7d427"
   end
 
   resource "pycparser" do
