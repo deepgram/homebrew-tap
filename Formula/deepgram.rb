@@ -8,8 +8,8 @@ class Deepgram < Formula
 
   desc "Official Deepgram CLI for speech recognition and audio intelligence"
   homepage "https://github.com/deepgram/cli"
-  url "https://files.pythonhosted.org/packages/1b/4d/4b30fc47db9fb094770fecd1c212ebc048d1b6fda280cb6ebb0334f8c8f3/deepctl-0.3.3.tar.gz"
-  sha256 "67de8637b64f40fc371494d5e49d89dd4b618c7bb0893a6f8f274c403d961c14"
+  url "https://files.pythonhosted.org/packages/11/f3/86ca6c407f89479bc8351e6a8fc71bf3093f5324cbe0e11da29780b55ec1/deepctl-0.4.1.tar.gz"
+  sha256 "bdcf78885d0c86450c59ae61bb524175b65e9d9d22b6d0e3d83632a7b8e2eb7f"
   license "MIT"
 
   # Build-time deps for the `cryptography` and `pydantic_core` resources,
@@ -43,8 +43,8 @@ class Deepgram < Formula
   end
 
   resource "annotated-doc" do
-    url "https://files.pythonhosted.org/packages/5a/8e/38aa427ed5402449e226975b649c5dc73ccadfefeb95e6aecb8f8ea4b6b6/annotated_doc-0.0.5.tar.gz"
-    sha256 "c7e58ce09192557605d8bbd92836d7e1d520ac9580096042c0bfd197efacf1bb"
+    url "https://files.pythonhosted.org/packages/0f/6e/a61e86e43bb6039b31a33a8f5fba76fe1cdacf3661e7b9756d4ff1b28cdc/annotated_doc-0.0.6.tar.gz"
+    sha256 "7969bb69912085b2285849c0dcac0b4b374fd180c13cf10a87f284ffcf347bbf"
   end
 
   resource "annotated-types" do
@@ -53,8 +53,8 @@ class Deepgram < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/a9/d2/f4d173e22df740bc37b1db102b386ba719b66e95b0f0d751f556b387e6d2/anyio-4.15.1.tar.gz"
-    sha256 "9f28306018cbd6d329e64a36d58256edff76dd996fe423bc957326e578b82a94"
+    url "https://files.pythonhosted.org/packages/a1/98/7e457a3b014976887a050561955c0b76e1e7e2d6e27b78ecef2ef80518f2/anyio-4.16.0.tar.gz"
+    sha256 "59bb03251907983d1603d27c3087ddb1e93299ea2163adcdba37899a4fb12ffb"
   end
 
   resource "attrs" do
@@ -63,8 +63,8 @@ class Deepgram < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz"
-    sha256 "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55"
+    url "https://files.pythonhosted.org/packages/fd/11/b524cbd9bbdaca58608e4cf4053fd463417549e1959fa8d3aa18319f9555/certifi-2026.10.23.tar.gz"
+    sha256 "a9895e6e2758b371e0545e321a3a8fd1fcfd9829ada8824a936dfb16aaaf36cd"
   end
 
   resource "cffi" do
@@ -78,8 +78,8 @@ class Deepgram < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz"
-    sha256 "ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34"
+    url "https://files.pythonhosted.org/packages/45/37/edbf1b0707709013c0cf2e8317e03d97ed29bf4cac709fe328904ae92a38/click-8.5.1.tar.gz"
+    sha256 "9bbfada76703fd1d784b83eea012e3e8c6a001a876543ef104fa56aaaeb072b4"
   end
 
   resource "cryptography" do
@@ -88,8 +88,8 @@ class Deepgram < Formula
   end
 
   resource "deepctl-cmd-api" do
-    url "https://files.pythonhosted.org/packages/1c/24/b1f5c904e78ec4c9bc1dfede1e8182676f622af0c24265874fc91a6f44bc/deepctl_cmd_api-0.0.2.tar.gz"
-    sha256 "f0280d82c0bee46310a6ed987a19422dd5ddbc192cfff7c67cb2d6f548e475cc"
+    url "https://files.pythonhosted.org/packages/42/e0/f48344b20c6b44fed8a07d02e9a3592c654a56b0876abd67777a082ea061/deepctl_cmd_api-0.0.3.tar.gz"
+    sha256 "c60126927cc2e95c7953d67223439279a17b40d872bf3a09ad42474500bd604f"
   end
 
   resource "deepctl-cmd-billing" do
@@ -108,8 +108,8 @@ class Deepgram < Formula
   end
 
   resource "deepctl-cmd-debug-audio" do
-    url "https://files.pythonhosted.org/packages/4e/d0/6c1be8760e2503271dc79dde52769d1618d8d863e35b2aad6c37e6c6f289/deepctl_cmd_debug_audio-0.1.14.tar.gz"
-    sha256 "c38c9d4c9296b3854d8d91ac94b30e1a9c507688ce0ecfe68cca470fc7c4c804"
+    url "https://files.pythonhosted.org/packages/24/f8/a601b211cc439484baa512c6ce1bc216ec94138bc3899cffd6b956a0641a/deepctl_cmd_debug_audio-0.1.15.tar.gz"
+    sha256 "5f59ed292d4d85e2ef0cf3c15628ac899bd578682b489ef61d15a7941e8a3286"
   end
 
   resource "deepctl-cmd-debug-browser" do
@@ -123,23 +123,23 @@ class Deepgram < Formula
   end
 
   resource "deepctl-cmd-debug-probe" do
-    url "https://files.pythonhosted.org/packages/f9/12/079511eef3f64c6db8ad6e3f10366a75f048215c21056ae1877b71836af2/deepctl_cmd_debug_probe-0.0.2.tar.gz"
-    sha256 "8ebbc0a648ed56638eec67930c54afaf8b649c415cc970b72bcb7e3958ffb11a"
+    url "https://files.pythonhosted.org/packages/4c/31/07ae6b21dbfdadf9648700b98d5a16ff2a43b679ad01fa9f67d8fc5819bc/deepctl_cmd_debug_probe-0.0.3.tar.gz"
+    sha256 "443b024ddca22a375bfe3e30b3e2f2b1c4b83b59233ac51bbb04bd19fdb78a09"
   end
 
   resource "deepctl-cmd-debug-toolkit" do
-    url "https://files.pythonhosted.org/packages/27/f1/f83e5f76591ee1ff304b8bbb588b2029760fe790a615e378e06a1691bee3/deepctl_cmd_debug_toolkit-0.1.0.tar.gz"
-    sha256 "f58f26ed1d77d3f1504a07f6fa2e6dd8800d5d525810dd027164e58841aff5ca"
+    url "https://files.pythonhosted.org/packages/79/c9/dd0c3cffa6efed90ba46cf0f286899450c831c3f5147ad2a87ef06181efc/deepctl_cmd_debug_toolkit-0.2.0.tar.gz"
+    sha256 "927e2a58e554094ec695ade477c90690f310ed95e1c054bc8fdd3d3bd45127aa"
   end
 
   resource "deepctl-cmd-ffprobe" do
-    url "https://files.pythonhosted.org/packages/5b/a2/93c0ae3ad454585a4093142ab9c2de567a187a3456f299bc980817e46e19/deepctl_cmd_ffprobe-0.0.3.tar.gz"
-    sha256 "365c743f05da365214f3ae974dd63546850f35bd5a91db01b66c9ef0e6719abe"
+    url "https://files.pythonhosted.org/packages/66/3f/508f60946b340331563578dd58c694e30b8e2310bf12ad1e37f233b37035/deepctl_cmd_ffprobe-0.0.4.tar.gz"
+    sha256 "fe5e2bba3048c6932afe5f0a9ef23813af497dedf00d576fb0339e67859e40c2"
   end
 
   resource "deepctl-cmd-init" do
-    url "https://files.pythonhosted.org/packages/11/17/d07678679ac0eaa0ba0a328eed811c5ee3d688e42e917cbea65a21f38950/deepctl_cmd_init-0.0.4.tar.gz"
-    sha256 "4944ab2f27b9a52ede7388d94c69f97fdfad7f39f38fdd3c85a0a8e74753875d"
+    url "https://files.pythonhosted.org/packages/ef/8c/68aa86c1e6da1a7a2bbf811cad8d6dde8cdb4e5a4996d388b9d53ba0d8fe/deepctl_cmd_init-0.1.1.tar.gz"
+    sha256 "a31008c1025a245fde4124b0ae1a59e64ac847dfe4082b9ed5d6178d15a03d68"
   end
 
   resource "deepctl-cmd-keys" do
@@ -148,18 +148,18 @@ class Deepgram < Formula
   end
 
   resource "deepctl-cmd-listen" do
-    url "https://files.pythonhosted.org/packages/d0/9b/27c05508fe7f1e2018b2ed38f92db437613e6cf5bfbe76039aef93bedefb/deepctl_cmd_listen-0.0.14.tar.gz"
-    sha256 "5ceee550bffa4289933b685dce4a57529a60d46e2da7e292c7ef5270f745fd1c"
+    url "https://files.pythonhosted.org/packages/47/18/df5ec7c7548b73aad6afc4e881a68a9d1e77897e97d9766a20390c32dc4c/deepctl_cmd_listen-0.0.15.tar.gz"
+    sha256 "a01d5d761fc50ddd388a824b5dd3f8e1be7843d1d86538681ab630d450c65903"
   end
 
   resource "deepctl-cmd-login" do
-    url "https://files.pythonhosted.org/packages/5f/55/336fbd9c300f9b18f88e796cc454c4259f718c4f3882f69bb6962df8cc8e/deepctl_cmd_login-0.1.20.tar.gz"
-    sha256 "eb99e69b41418f6f200ffe5b3565661cf3685f6adb427b15834e6a50466f9717"
+    url "https://files.pythonhosted.org/packages/ff/70/e8d509f4f380c08152e1032b5cfacfe76aab9bed760aec04a32f486ea1a3/deepctl_cmd_login-0.2.1.tar.gz"
+    sha256 "98de0420fa4f05f8cc19a200a6acd6bde828c38a7a9f3e5d0ff3e995d34bb480"
   end
 
   resource "deepctl-cmd-mcp" do
-    url "https://files.pythonhosted.org/packages/7a/4f/d10506da751ea2d1048c3bbf2070ba30f991c6db6205f125443bddc90f01/deepctl_cmd_mcp-0.1.15.tar.gz"
-    sha256 "434545cc0ca011a3baf9d0ef53b53dad81e34700f6a8ce868d52a912ca841b04"
+    url "https://files.pythonhosted.org/packages/94/30/08eb87a77fb49c1e61b01730e09a93a96f6f135a583917bb681d894169a8/deepctl_cmd_mcp-0.1.16.tar.gz"
+    sha256 "cce61dde5cb8c3bf8530aa7d477e44df31af1714be02aa0c100326a3c7a4fbe6"
   end
 
   resource "deepctl-cmd-members" do
@@ -173,13 +173,13 @@ class Deepgram < Formula
   end
 
   resource "deepctl-cmd-plugin" do
-    url "https://files.pythonhosted.org/packages/8f/07/01750f5f5876fb0de809ee0a12c08f6a03061fe43f112a23327de541be1c/deepctl_cmd_plugin-0.1.14.tar.gz"
-    sha256 "be8b7cdb2f27aca5fe144eb691c353b7d17c81c628054a248f97168c6380ebeb"
+    url "https://files.pythonhosted.org/packages/aa/fc/03780aba5792d6c41a2c749ca95d6065a95df1dc84e9dfa727c53ba51514/deepctl_cmd_plugin-0.1.15.tar.gz"
+    sha256 "d70aff263910dd37b3f16a2f08c552a3e1fa1c6b0cc28255e06a6d0869e82bbc"
   end
 
   resource "deepctl-cmd-projects" do
-    url "https://files.pythonhosted.org/packages/fd/02/253596c8cc19afc3faaa488c02a769e630b58822451b51d65cf5b6b8ed9c/deepctl_cmd_projects-0.2.0.tar.gz"
-    sha256 "c9fb44198297c7fe088789e569d3628697f01a0a69ac96e056b9b9b99bf04656"
+    url "https://files.pythonhosted.org/packages/fd/fe/439e49fcea4af680095f29b530d207a91d90429e149f8c190fa5ad392470/deepctl_cmd_projects-0.2.1.tar.gz"
+    sha256 "89500ceaccbc6e640620252576d0ccc9aca9fbcd0cb9c9c4ad62788e5bf267fd"
   end
 
   resource "deepctl-cmd-read" do
@@ -193,13 +193,13 @@ class Deepgram < Formula
   end
 
   resource "deepctl-cmd-skills" do
-    url "https://files.pythonhosted.org/packages/d5/b5/0faab27b6f5858fb32f3371599320716c7b226d4ec9fe3d8010bffc96a8c/deepctl_cmd_skills-0.0.9.tar.gz"
-    sha256 "9d23843a82d1f1ab5cc4a2eed499f6a25285a782ac36a7eabe17af97dff4e25b"
+    url "https://files.pythonhosted.org/packages/65/a4/bf9e06f34220fdfa95e091f59e09ebf3d6d4b2c74fc08949f0c3792aed7d/deepctl_cmd_skills-0.0.10.tar.gz"
+    sha256 "bbf549a2dfef60a942a0e55015097e68f65b23ea45ef6a06f6dc69ee2b8d171f"
   end
 
   resource "deepctl-cmd-speak" do
-    url "https://files.pythonhosted.org/packages/d9/94/29e04f8ef4fdab28a42599997201c2a0a152aa4a8512c060cff13b38beb8/deepctl_cmd_speak-0.0.5.tar.gz"
-    sha256 "9664cf747afdba911d409061fb4c5fb5efb9b7ac472e794a43ebb6dd9c14f5d0"
+    url "https://files.pythonhosted.org/packages/f9/e9/5ebe2fbf853094139ddba7939be6fe5228abfeca4132a4ffa996ccd59a47/deepctl_cmd_speak-0.0.6.tar.gz"
+    sha256 "1f58bc8008523f2d6d7ec61b0079117c9b99094da1b54192676d2858b8bfaeca"
   end
 
   resource "deepctl-cmd-transcribe" do
@@ -208,8 +208,8 @@ class Deepgram < Formula
   end
 
   resource "deepctl-cmd-update" do
-    url "https://files.pythonhosted.org/packages/de/16/8b9696cedb5ef5aaec05f70cc6971928b036cef6bb1423b32a8b416af59b/deepctl_cmd_update-0.2.7.tar.gz"
-    sha256 "f61e42bd6640c8e20c285a962afc513a85cf27b9a98e18a18f3857fbb563ef88"
+    url "https://files.pythonhosted.org/packages/77/eb/05c0200e0d54892c8533a41c6df6734363c2d151306140e3e3da279b21fe/deepctl_cmd_update-0.2.8.tar.gz"
+    sha256 "7339f55f00b33e869d475a5e5463466f9e5e74ab2c2744bc0638fdb825c215bd"
   end
 
   resource "deepctl-cmd-usage" do
@@ -218,18 +218,18 @@ class Deepgram < Formula
   end
 
   resource "deepctl-core" do
-    url "https://files.pythonhosted.org/packages/ca/7c/f2426e7718a813946a444e7af12669156ed8d4077e18ceba379fd008cfd6/deepctl_core-0.2.19.tar.gz"
-    sha256 "1d62f9b6e9e03846793097304677bc3eaf89f54f0791f691530b0f0672d1b980"
+    url "https://files.pythonhosted.org/packages/9f/16/51e1111e7fc4ee27e427a30d78bba1b00a1d48deca91310bdc235558ad0f/deepctl_core-0.3.1.tar.gz"
+    sha256 "3d55ee780f55ed60b5309b72b0dd64bfa58ed1ae9f6b822b6b4af074e6a8e0d4"
   end
 
   resource "deepctl-shared-utils" do
-    url "https://files.pythonhosted.org/packages/74/cf/bedb4d35eb3bdda17d260d9a6f4d1d2e15ec6915bdc020fa8193e9b624c2/deepctl_shared_utils-0.1.13.tar.gz"
-    sha256 "223596bbfd2e6101850e6a1614a81190768f9b8432b950c43b4d87962384473d"
+    url "https://files.pythonhosted.org/packages/b6/f0/ba7bb3297632a16946d7e6a262abeac16f5a8f54a957a7f71a12baf871a3/deepctl_shared_utils-0.1.14.tar.gz"
+    sha256 "b8dc6399ffe939ae4a9e65f32dab72f9157e56c2b8461b995acdf59b869b3894"
   end
 
   resource "deepctl-telemetry" do
-    url "https://files.pythonhosted.org/packages/10/2b/b8e2e1bf1168395f97c48af641a16b869e885dc483430101ffd0aed00b06/deepctl_telemetry-0.0.7.tar.gz"
-    sha256 "23589037b1e8c21f1c659f97dc9035ce81f579f183910561defb817169870059"
+    url "https://files.pythonhosted.org/packages/68/90/f4981d6e04f36dc0f8b1e47ba1d377926f45b5af9f5fa70fcd055d0fd132/deepctl_telemetry-0.0.8.tar.gz"
+    sha256 "061fbac036623429d784bfc896f287408b9baeb103f1ef04dd4d4a80a2fefe7b"
   end
 
   resource "deepgram-captions" do
@@ -237,14 +237,9 @@ class Deepgram < Formula
     sha256 "0f0bde3391c3f40be9fdfc9e42a7cf89a82b8a460aa62d24ddd8e55a100a6dd3"
   end
 
-  resource "deepgram-mcp" do
-    url "https://files.pythonhosted.org/packages/ea/ad/828d8a554df8125c5e63d9056c1765705b6e64a139e5cac36fe31d27e859/deepgram_mcp-0.1.1.tar.gz"
-    sha256 "907955b48130f57d91a81342f1adeeb7a37153d042e1e7affc8fc85f90e3bf54"
-  end
-
   resource "deepgram-sdk" do
-    url "https://files.pythonhosted.org/packages/20/32/02856581cc8c50c48392530b2a6fe52e052218e0581ba3bf4983efe70da8/deepgram_sdk-7.13.0.tar.gz"
-    sha256 "e7e5a3bcf261cbd1f2ee8987adcdd21acce6268bf5904dc943fefe4b9577a8ef"
+    url "https://files.pythonhosted.org/packages/a9/7c/276f6eaafa8655bdd85850e7b1dbdd3c049ba46425386f35466b607d5be4/deepgram_sdk-7.18.0.tar.gz"
+    sha256 "04191ade5b0a7719ee7d562f7e2ca7c746f67b016cc94a12ef554288afbfe6bd"
   end
 
   resource "ffmpeg-python" do
@@ -323,8 +318,8 @@ class Deepgram < Formula
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/06/ff/7841249c247aa650a76b9ee4bbaeae59370dc8bfd2f6c01f3630c35eb134/markdown_it_py-4.2.0.tar.gz"
-    sha256 "04a21681d6fbb623de53f6f364d352309d4094dd4194040a10fd51833e418d49"
+    url "https://files.pythonhosted.org/packages/16/fc/cee2c45553c9a9bf77d8b0c391560c556d7ed756b1f0bb35eb5d48db09ea/markdown_it_py-4.3.0.tar.gz"
+    sha256 "91a58fa5b72c71a40cf7177250fd767480d7a2bb3ac426ccfb76fb90305fdaaa"
   end
 
   resource "mcp" do
@@ -338,13 +333,13 @@ class Deepgram < Formula
   end
 
   resource "more-itertools" do
-    url "https://files.pythonhosted.org/packages/de/1d/f4da6f02cdffe04d6362210b807146a26044c88d839208aec273bb0d9184/more_itertools-11.1.0.tar.gz"
-    sha256 "48e8f4d9e7e5878571ecf6f2b4e57634f93cd474cc8cfbd2376f2d11b396e30d"
+    url "https://files.pythonhosted.org/packages/52/b8/c63995bebbb9ac9c059350e0fb8c82c2420c85aeca7d34e40aecf3df9281/more_itertools-11.2.1.tar.gz"
+    sha256 "cbf08fd0af284dc69718b9b76a8e6203df624d70209ea511e4219d350c856f63"
   end
 
   resource "multidict" do
-    url "https://files.pythonhosted.org/packages/f9/79/84ddb5ba16c4eb2c69c71db76ae3c579fe546e511f7170c7e27eedbab7c1/multidict-7.1.0.tar.gz"
-    sha256 "61a4e5d81b8d4e4ad61964b230129e7a2b914793d96289029078fc9009f074ec"
+    url "https://files.pythonhosted.org/packages/7b/6b/29ef8e752f5854dcc267ded0652c475bec99b86f255957a0d4fcad657b18/multidict-7.2.1.tar.gz"
+    sha256 "e8af3e6f1bdbc31fd762b094133b478b89988eaebc63cbe82b1d9e3bbd15cede"
   end
 
   resource "numpy" do
@@ -358,8 +353,8 @@ class Deepgram < Formula
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/80/a8/66d45abadff219e36e2a824181b8f6a67e7ed4572934d6252c71c29d5731/platformdirs-4.13.0.tar.gz"
-    sha256 "1aa0b0d3f224c1f07c295121e312a5a24a180d6ae5a8425ea1784b3e3863e9c0"
+    url "https://files.pythonhosted.org/packages/d7/9a/8475be631fb33ca1466915e70fd594c42a4e84b512db650eaa14f90fe75d/platformdirs-4.14.5.tar.gz"
+    sha256 "32e9921db7385aa8169bee4fe9501923e5715ba9fb7ea3b9c69b0d8e0639f7a1"
   end
 
   resource "propcache" do
@@ -368,23 +363,23 @@ class Deepgram < Formula
   end
 
   resource "pycparser" do
-    url "https://files.pythonhosted.org/packages/da/a8/c5fdbeee588bb8ada9458774f43adf1bdd30bd59157055142183e769a024/pycparser-3.11.tar.gz"
-    sha256 "d875f09c3507d00e1aba0eecc6dcadc1352f30fff09dc6bff2f1c2935e97c2bc"
+    url "https://files.pythonhosted.org/packages/cb/27/eeb9f307bf07060f3d9f9aa0fb8c15b01bdfded0a941e4b2719c7f94cacd/pycparser-3.12.tar.gz"
+    sha256 "f03387877eab82ce01bbdfd0ba7252ee55a90b1c708d5129e2ce915475cf1db6"
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/7c/0b/8e10b2e693af8ec54346a14caf36221334775975a747c9ceaa3f8371d96d/pydantic-2.14.1.tar.gz"
-    sha256 "94f478203dd03404682a1ada216965651dd74b1d2d5ffd62e00e0837caab5c26"
+    url "https://files.pythonhosted.org/packages/b4/fc/1203d011145c98ddce3cd2f505bb54375ef8d43223053df6bfcf3c746f46/pydantic-2.14.3.tar.gz"
+    sha256 "1054f237f4d4733e5a30e1e2333bd33a2004ab9ab1510bd053a9a31bb48e232d"
   end
 
   resource "pydantic_core" do
-    url "https://files.pythonhosted.org/packages/a6/24/af4ec4be49fbc810f35b0bdcacc3d433b56bbfa469fd3bfd4ae116cd9bf1/pydantic_core-2.50.1.tar.gz"
-    sha256 "e50d7b94baac6c7d09927fa5ca5800a0c7ee5015c7fcff65beb3a1931b5a6e09"
+    url "https://files.pythonhosted.org/packages/9c/0f/34f9ce4ba701dd0b815033ef94d99b56f66200e578ee6052aa3ac26f064e/pydantic_core-2.50.4.tar.gz"
+    sha256 "aead3b74b68396bf0feab5d57e050b730ded7df55853c1e048a87e00aaf033c6"
   end
 
   resource "pydantic-settings" do
-    url "https://files.pythonhosted.org/packages/68/ca/31c57507b13119d7d3cfa1576dad2911a4861e3be07b579395f4e9d393f9/pydantic_settings-2.15.0.tar.gz"
-    sha256 "694b793e84f766ba76a90ebdefc01d0a9a045dab0382bee70393da93712ad117"
+    url "https://files.pythonhosted.org/packages/d0/31/21d21e0e38a8f5f7a7f0cde22820117b6d17d6bc36f348129527f915d7f4/pydantic_settings-2.16.2.tar.gz"
+    sha256 "3dc08ffabed2bbd5dc2dd55ead7b78b4e4c5cd776aecd04310db5f1224caaf46"
   end
 
   resource "Pygments" do
@@ -403,8 +398,8 @@ class Deepgram < Formula
   end
 
   resource "python-multipart" do
-    url "https://files.pythonhosted.org/packages/5b/42/55c32bb9b12693c092ad250a0e82edb5b31ddeda6eb772de5f308b3804ad/python_multipart-0.0.32.tar.gz"
-    sha256 "be54b7f3fa167bb83e4fcd936b887b708f4e57fe75911c02aebf53efaf8d938e"
+    url "https://files.pythonhosted.org/packages/9f/b7/15b905f6142a9a8a68f66900788da1a32e4d4254452783b37ad1eccb0506/python_multipart-0.0.33.tar.gz"
+    sha256 "b8112424a6abd162ec08d390565dd113ad699f2fe6fef3c987b8bbcbfe9e390d"
   end
 
   resource "PyYAML" do
@@ -438,8 +433,8 @@ class Deepgram < Formula
   end
 
   resource "sentry-sdk" do
-    url "https://files.pythonhosted.org/packages/67/93/9ef70bfb7346c778caf09b7cd10c17c33f601f2d17019fa1aedcda738b5f/sentry_sdk-2.71.0.tar.gz"
-    sha256 "7beb27a22f06396f3a05510c3da6ea10e1c79e02e859993c27ce4ff074e296d6"
+    url "https://files.pythonhosted.org/packages/d2/95/121b20d75e738d249a0e26e6476a2acb178673e8228002748fc0cd85ce55/sentry_sdk-2.75.0.tar.gz"
+    sha256 "c38ac2d4b2435c11da821e173bb9d9088c98f41ae92f559ce0e424170a8e1a29"
   end
 
   resource "shellingham" do
@@ -453,13 +448,13 @@ class Deepgram < Formula
   end
 
   resource "sse-starlette" do
-    url "https://files.pythonhosted.org/packages/e4/be/0123026f719d1a7936f214a88b553bb5701e04ff2511147c1dab0c5035eb/sse_starlette-3.5.0.tar.gz"
-    sha256 "75de713aa8a9441513cc283220826da079d982770965b951e9437720e8bafdb2"
+    url "https://files.pythonhosted.org/packages/41/43/a232e3cd804293bd4f6d01e8895bc0f6f83ea148d712baf9d783c7d93d23/sse_starlette-3.7.0.tar.gz"
+    sha256 "326416da2ab52e9a41b3f409d3ff897eda45aa68c9f3b7b17d0913aab8d219c3"
   end
 
   resource "starlette" do
-    url "https://files.pythonhosted.org/packages/7b/2b/3850dc6bf7ef71b088962eba31dafc6cffd2f96e577ebb0bb316df96da3e/starlette-1.7.0.tar.gz"
-    sha256 "c79f74ea63cff761804fbbfb182f1e0b440c2d07b164d24700c5a1bab5d6ff5d"
+    url "https://files.pythonhosted.org/packages/48/bb/3d8757f21e9a53d9035c9eb039a777047139a16bfdbedfc7a58241c3d914/starlette-1.10.0.tar.gz"
+    sha256 "b8399098d4c1e3522734f7235dc79b1fc967f96cf139c81e0fa30479e0685f9b"
   end
 
   resource "toml" do
@@ -468,8 +463,8 @@ class Deepgram < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/03/51/d33db42cc72ffd8c30777547b42d01f0cbf9d95a770457698d0174b3ed71/typer-0.27.3.tar.gz"
-    sha256 "d0396f770a560ab1b0a8504e13b5f254b728cedb05c61cf0359e944e50ce8901"
+    url "https://files.pythonhosted.org/packages/6c/aa/0de7986aa1fa856adb961c67345189b97d13f6e250b34ba68884df865f07/typer-0.29.1.tar.gz"
+    sha256 "ab6eb3880bf67ce96147734717f9ec333c06f66e361f3ea947d0be43da39f242"
   end
 
   resource "typing-extensions" do
@@ -478,8 +473,8 @@ class Deepgram < Formula
   end
 
   resource "typing-inspection" do
-    url "https://files.pythonhosted.org/packages/a3/26/b09b8010994eccc3c09092e6b34058f36a460eea2d4c3e8b910c695975a0/typing_inspection-0.4.4.tar.gz"
-    sha256 "547274fa6b0a561ccf549cc9524b999a578e737d015d8709d021f9d0d13bea47"
+    url "https://files.pythonhosted.org/packages/ff/50/0195198eb1d75bab716bb0a813abea4cc394bfa17a92a189f021a34859af/typing_inspection-0.4.5.tar.gz"
+    sha256 "7f16c411e7930dc79596d42ab44672a3fe5f60eb34b781a1647e7872363120c7"
   end
 
   resource "urllib3" do
@@ -493,8 +488,8 @@ class Deepgram < Formula
   end
 
   resource "websockets" do
-    url "https://files.pythonhosted.org/packages/01/89/3f825ab71c242fffb62ea8fe638741c290f62f8d7aadf8125ff897747af3/websockets-17.2.tar.gz"
-    sha256 "36c2fb94c990cc2545143b12690e2de6c16300f9dbe5b4f33fa300cf57dc8792"
+    url "https://files.pythonhosted.org/packages/75/79/590c5f0cc7d1661195aeefccb0e342b79f4c77d368d526d028821a390332/websockets-17.4.tar.gz"
+    sha256 "09d3939b70df0c8ad2da145ebd50978bccaee1d565e838b0e7921a34d38571eb"
   end
 
   resource "yarl" do
